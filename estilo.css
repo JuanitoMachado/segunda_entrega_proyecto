@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "sacramento" ;
+    src: url(./font/Sacramento-Regular.ttf);
+}
+@font-face {
+    font-family: "lato";
+    src:url(./font/Lato-Regular.ttf)
+}
+.fondo{
+    background-image: linear-gradient(to bottom, rgb(225, 163, 239), #faedee );
+}
+body{
+    font-family: "sacramento";
+}
+h1{
+    font-size: 5em;
+    color: #8c52ff;
+}
+h2{
+    font-family: "lato";
+    font-size: 2em;
+    color: #8c52ff;
+}
+h3{
+    font-family: "lato";
+    font-size: 1em;
+    color: #8c52ff;
+}
+a{
+    color: #8c52ff;
+    font-family: "lato";
+    font-size: 1rem;
+    padding: 0 4px;
+}
+label{
+    color: #8c52ff;
+    font-family: "sacramento";
+    font-size: 2rem;
+    padding: 0 4px;
+}
+.texto{
+    color: black;
+    font-family: "sacramento";
+    font-size: 2em;
+    padding: 0 4px; 
+}
+.productos{
+    color: #8c52ff;
+    font-family: "lato";
+    text-align: center;
+}
+.redes{
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
+input{
+    font-family: "lato";
+}
+textarea{
+    font-family: "lato"
+}
